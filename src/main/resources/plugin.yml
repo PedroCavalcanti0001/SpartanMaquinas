@@ -1,0 +1,12 @@
+name: SpartanMaquinas
+version: ${project.version}
+main: me.zkingofkill.spartan.Maquinas
+prefix: SpartanMaquinas
+depend: [Vault,HolographicDisplays]
+authors: [zKingOfKill]
+load:
+description: Plugin de maquinas
+
+commands:
+  maquina:
+    description: comando.

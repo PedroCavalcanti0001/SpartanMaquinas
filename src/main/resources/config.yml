@@ -1,0 +1,53 @@
+Mysql:
+  Host: ''
+  Port: ''
+  User: ''
+  Password: ''
+  Database: ''
+  Table: 'SpartanMaquinas'
+
+Maquinas:
+  'gelo':
+    Nome: "&aMaquina de gelo"
+    Item: '174:1'
+    Lore:
+    - "Quantidade: x3"
+    StackMax: 300
+    LitrosMax: 150
+    Delay: 15
+    RankMinimo: 0
+    Consumo: 20
+    Drops: 1
+    Valor: 50.0
+    Combustiveis:
+    - '0'
+Combustiveis:
+  '0':
+    Nome: '&aCombustivel Random ({litros}).'
+    Item: '1:2'
+    Lore:
+    - 'Lore delicia'
+
+Mensagens:
+  Prefix: "&f[&a&lMaquinas&f] "
+  MaquinaColocada: "&bMaquina de @tipo colocada com sucesso!"
+  MaquinaQuebrada: "&bMaquina quebrada com sucesso"
+  MaquinaDeOutro: "&cApenas o dono pode quebrar essa maquina!"
+  MaquinaDada:
+
+CasasDecimais:
+- "C"
+- "K"
+- "M"
+- "B"
+- "T"
+- "Q"
+- "QI"
+- "S"
+- "SEP"
+- "OC"
+- "N"
+- "DEC"
+- "UN"
+- "DUO"
+- "TRE"
